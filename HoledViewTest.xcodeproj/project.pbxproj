@@ -21,6 +21,8 @@
 		1861B5E51AD3BC0700453C08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1861B5C71AD3BC0700453C08 /* UIKit.framework */; };
 		1861B5ED1AD3BC0700453C08 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1861B5EB1AD3BC0700453C08 /* InfoPlist.strings */; };
 		1861B5EF1AD3BC0700453C08 /* HoledViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861B5EE1AD3BC0700453C08 /* HoledViewTestTests.m */; };
+		1861B5FB1AD3BEFD00453C08 /* YLZHoledView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1861B5FA1AD3BEFD00453C08 /* YLZHoledView.m */; };
+		1861B5FD1AD3CAC000453C08 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1861B5FC1AD3CAC000453C08 /* background@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		1861B5EA1AD3BC0700453C08 /* HoledViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoledViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		1861B5EC1AD3BC0700453C08 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1861B5EE1AD3BC0700453C08 /* HoledViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HoledViewTestTests.m; sourceTree = "<group>"; };
+		1861B5F91AD3BEFD00453C08 /* YLZHoledView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLZHoledView.h; sourceTree = "<group>"; };
+		1861B5FA1AD3BEFD00453C08 /* YLZHoledView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLZHoledView.m; sourceTree = "<group>"; };
+		1861B5FC1AD3CAC000453C08 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +117,13 @@
 		1861B5C91AD3BC0700453C08 /* HoledViewTest */ = {
 			isa = PBXGroup;
 			children = (
+				1861B5F81AD3BC0F00453C08 /* YLZHoledView */,
 				1861B5D21AD3BC0700453C08 /* AppDelegate.h */,
 				1861B5D31AD3BC0700453C08 /* AppDelegate.m */,
 				1861B5D51AD3BC0700453C08 /* Main.storyboard */,
 				1861B5D81AD3BC0700453C08 /* ViewController.h */,
 				1861B5D91AD3BC0700453C08 /* ViewController.m */,
+				1861B5FC1AD3CAC000453C08 /* background@2x.png */,
 				1861B5DB1AD3BC0700453C08 /* Images.xcassets */,
 				1861B5CA1AD3BC0700453C08 /* Supporting Files */,
 			);
@@ -150,6 +157,15 @@
 				1861B5EB1AD3BC0700453C08 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1861B5F81AD3BC0F00453C08 /* YLZHoledView */ = {
+			isa = PBXGroup;
+			children = (
+				1861B5F91AD3BEFD00453C08 /* YLZHoledView.h */,
+				1861B5FA1AD3BEFD00453C08 /* YLZHoledView.m */,
+			);
+			name = YLZHoledView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1861B5DC1AD3BC0700453C08 /* Images.xcassets in Resources */,
+				1861B5FD1AD3CAC000453C08 /* background@2x.png in Resources */,
 				1861B5CE1AD3BC0700453C08 /* InfoPlist.strings in Resources */,
 				1861B5D71AD3BC0700453C08 /* Main.storyboard in Resources */,
 			);
@@ -252,6 +269,7 @@
 				1861B5DA1AD3BC0700453C08 /* ViewController.m in Sources */,
 				1861B5D41AD3BC0700453C08 /* AppDelegate.m in Sources */,
 				1861B5D01AD3BC0700453C08 /* main.m in Sources */,
+				1861B5FB1AD3BEFD00453C08 /* YLZHoledView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
